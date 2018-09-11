@@ -1,0 +1,696 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+nav {
+  width: 100%;
+  background: rgba(10, 10, 10, 0.5);
+  position: fixed;
+  top: 0px;
+  z-index: 3;
+}
+nav .box {
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
+}
+nav .box .left {
+  width: 130px;
+  height: 80px;
+  float: left;
+}
+nav .box .left img {
+  margin: 15px 0px;
+}
+nav .box .right {
+  float: right;
+}
+nav .box .right ul li {
+  float: right;
+  margin: 0px 15px;
+}
+nav .box .right ul li a {
+  color: #fff;
+  line-height: 80px;
+}
+nav .box .right ul li:hover > a {
+  color: red;
+}
+nav .box .right ul li:nth-child(1) {
+  width: 150px;
+  position: relative;
+  height: 40px;
+  background: red;
+  margin: 20px 0px;
+}
+nav .box .right ul li:nth-child(1) a {
+  display: inline-block;
+  margin-left: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+nav .box .right ul li:nth-child(1) a img {
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
+  position: absolute;
+  top: 7.5px;
+  left: 12px;
+}
+nav .box .right ul li:nth-child(1):hover {
+  background: #000;
+}
+nav .box .right ul li:nth-child(1):hover a {
+  color: #fff;
+}
+nav .navigation {
+  width: 100%;
+  height: 60px;
+  position: relative;
+  display: none;
+}
+nav .navigation .left {
+  margin: 13px 20px;
+  float: left;
+  width: 100px;
+  height: 34px;
+}
+nav .navigation .right {
+  width: 30px;
+  height: 30px;
+  float: right;
+  padding: 15px 30px;
+}
+nav .navigation .content {
+  width: 100%;
+  background: rgba(10, 10, 10, 0.5);
+  position: absolute;
+  top: 60px;
+  border-top: 1px solid #fff;
+  display: none;
+}
+nav .navigation .content a {
+  width: 90%;
+  height: 20px;
+  margin: 0 auto;
+  display: block;
+  font-size: 20px;
+  padding: 10px 0px;
+  color: #fff;
+}
+nav .navigation .content a:hover {
+  color: red;
+}
+header {
+  width: 100%;
+}
+header .rotete {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+header .rotete div ul {
+  width: 100%;
+  text-align: center;
+}
+header .rotete div ul .image {
+  width: 100%;
+}
+header .rotete div ul .image img {
+  width: 100%;
+}
+header .rotete div ul h2 {
+  color: #fff;
+  font-weight: lighter;
+  position: absolute;
+  font-size: 30px;
+  height: 80px;
+  bottom: 42%;
+  left: 40%;
+}
+header .rotete .left {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 40%;
+  left: 30px;
+  opacity: 0.8;
+}
+header .rotete .right {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 40%;
+  right: 30px;
+  opacity: 0.8;
+}
+header .bottom {
+  width: 100%;
+  height: auto;
+  margin: 30px 0px;
+}
+header .bottom .box {
+  width: 90%;
+  height: auto;
+  background: red;
+  margin: 0px auto;
+}
+header .bottom .box a {
+  float: left;
+  text-align: center;
+  width: 23%;
+  margin: 0px 1%;
+}
+header .bottom .box a img {
+  width: 35px;
+  height: 35px;
+  margin: 20px auto;
+}
+header .bottom .box a h3 {
+  font-weight: lighter;
+  color: #000;
+  margin-bottom: 20px;
+}
+header .bottom .box a p {
+  font-size: 14px;
+  color: #000;
+  line-height: 30px;
+}
+header .bottom .box a:hover > h3 {
+  color: red;
+}
+header .bottom:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+main {
+  width: 100%;
+}
+main .top {
+  width: 100%;
+}
+main .top .top-top .left {
+  width: 50%;
+  float: left;
+}
+main .top .top-top .left img {
+  width: 100%;
+}
+main .top .top-top .right {
+  width: 50%;
+  float: right;
+  height: 100%;
+}
+main .top .top-top .right .box {
+  width: 80%;
+  margin: 0 auto;
+}
+main .top .top-top .right .box h2 {
+  font-size: 30px;
+  font-weight: lighter;
+  margin: 40px 0px 0px 0px;
+}
+main .top .top-top .right .box p {
+  line-height: 25px;
+  margin: 20px 0px;
+  font-size: 15px;
+}
+main .top .top-top .right .box a {
+  color: #000;
+  padding: 10px 20px;
+  border: 1px solid black;
+  margin: 20px 0px;
+  display: inline-block;
+}
+main .top .top-top .right .box a:hover {
+  background: red;
+  color: #fff;
+  border: 1px solid transparent;
+}
+main .top .top-top:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+main .top .top-bottom .left {
+  width: 50%;
+  float: left;
+}
+main .top .top-bottom .left .box {
+  width: 80%;
+  margin: 0 auto;
+}
+main .top .top-bottom .left .box h2 {
+  font-size: 30px;
+  font-weight: lighter;
+  margin: 60px 0px 0px 0px;
+}
+main .top .top-bottom .left .box p:nth-child(2) {
+  font-size: 18px;
+  color: #888;
+  line-height: 30px;
+}
+main .top .top-bottom .left .box p {
+  line-height: 25px;
+  margin: 20px 0px;
+  font-size: 15px;
+}
+main .top .top-bottom .left .box a {
+  color: #000;
+  padding: 10px 20px;
+  border: 1px solid black;
+  margin: 20px 0px;
+  display: inline-block;
+}
+main .top .top-bottom .left .box a:hover {
+  background: red;
+  color: #fff;
+  border: 1px solid transparent;
+}
+main .top .top-bottom .right {
+  width: 50%;
+  float: right;
+}
+main .top .top-bottom .right img {
+  width: 100%;
+}
+main .top:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+main .center {
+  width: 100%;
+  text-align: center;
+  margin: 40px 0px;
+}
+main .center h2 {
+  font-size: 30px;
+  font-weight: lighter;
+}
+main .center p {
+  width: 50px;
+  height: 2px;
+  background: #000;
+  margin: 20px auto;
+}
+main .center .case {
+  width: 100%;
+  position: relative;
+}
+main .center .case .outside {
+  width: 100%;
+  overflow: hidden;
+}
+main .center .case .outside .inside a {
+  float: left;
+  display: block;
+}
+main .center .case .outside .inside a img {
+  width: 24%;
+  height: 100%;
+  margin: 0px 0.5%;
+  float: left;
+  transition: transform 0.2s linear;
+}
+main .center .case .outside .inside a img:hover {
+  transform: scale(1.01);
+}
+main .center .case .left {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 40%;
+  left: 10px;
+}
+main .center .case .right {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 40%;
+  right: 10px;
+}
+main .bottom {
+  width: 85%;
+  margin: 40px auto;
+}
+main .bottom h2 {
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+}
+main .bottom div {
+  width: 50px;
+  height: 2px;
+  background: #000;
+  margin: 20px auto;
+}
+main .bottom ul {
+  width: 100%;
+}
+main .bottom ul li {
+  width: 24%;
+  margin: 0px 0.5%;
+  float: left;
+}
+main .bottom ul li a img {
+  width: 100%;
+}
+main .bottom ul li a h3 {
+  font-size: 16px;
+  color: #000;
+  margin-top: 10px;
+  width: 100%;
+  height: 25px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 25px;
+}
+main .bottom ul li a h3:hover {
+  color: red;
+}
+main .bottom ul li span {
+  font-size: 15px;
+  color: #888;
+}
+main .bottom ul li p {
+  font-size: 14px;
+  margin: 15px 0px;
+  line-height: 25px;
+  color: #333;
+}
+main .bottom ul:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+footer {
+  width: 100%;
+  background: #383838;
+}
+footer .top {
+  width: 85%;
+  margin: 20px auto;
+}
+footer .top div {
+  width: 29%;
+  margin: 0px 2%;
+  float: left;
+}
+footer .top .left h2 {
+  font-weight: lighter;
+  font-size: 22px;
+  color: #fff;
+  margin-top: 40px;
+}
+footer .top .left p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #bbb;
+  margin: 20px 0px;
+}
+footer .top .left div {
+  height: 45px;
+  width: 100%;
+  margin: 10px 0px;
+}
+footer .top .left div a {
+  float: left;
+  margin: 0px 5px;
+}
+footer .top .left div a img {
+  width: 45px;
+  height: 45px;
+}
+footer .top .center h2 {
+  font-weight: lighter;
+  font-size: 22px;
+  color: #fff;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+footer .top .center div {
+  width: 100%;
+  margin: 10px 0px;
+  height: 16px;
+}
+footer .top .center div img {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+footer .top .center div span {
+  font-size: 14px;
+  color: #bbb;
+  line-height: 16px;
+  margin-left: 10px;
+}
+footer .top .right h2 {
+  font-weight: lighter;
+  font-size: 22px;
+  color: #fff;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+footer .top .right div {
+  width: 100%;
+  margin: 10px 0px;
+  height: 50px;
+  position: relative;
+}
+footer .top .right div img {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+footer .top .right div span {
+  font-size: 14px;
+  color: #bbb;
+  line-height: 25px;
+  position: absolute;
+  margin-left: 10px;
+}
+footer .top:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+footer .bottom {
+  width: 100%;
+  height: 80px;
+  background: #282828;
+}
+footer .bottom div.box {
+  width: 85%;
+  height: 80px;
+  margin: 0 auto;
+}
+footer .bottom div.box .left {
+  float: left;
+  height: 42px;
+  margin: 20px 0px;
+}
+footer .bottom div.box .left p {
+  font-size: 14px;
+  color: #888;
+  margin: 2px 0px;
+}
+footer .bottom div.box .left p span {
+  color: #aaa;
+}
+footer .bottom div.box .right {
+  float: right;
+  font-size: 14px;
+  color: #888;
+  margin-top: 10px;
+  background: 282828;
+}
+footer .bottom div.box .right span {
+  color: #aaa;
+}
+@media screen and (min-width: 480px) and (max-width: 980px) {
+  header .bottom .box a {
+    width: 45%;
+    margin: 0px 2.5%;
+  }
+  main .top .top-top .left {
+    width: 100%;
+  }
+  main .top .top-top .right {
+    width: 100%;
+  }
+  main .top .top-top .right .box p {
+    font-size: 14px;
+  }
+  main .top .top-bottom .left {
+    width: 100%;
+  }
+  main .top .top-bottom .left .box p:nth-child(2) {
+    font-size: 16px;
+  }
+  main .top .top-bottom .left p {
+    font-size: 14px;
+  }
+  main .top .top-bottom .right {
+    width: 100%;
+  }
+  main .center .case {
+    overflow: hidden;
+  }
+  main .center .case .outside .inside a img {
+    width: 49%;
+    margin: 0px 0.5%;
+  }
+  main .bottom ul li {
+    width: 46%;
+    margin: 0px 2%;
+  }
+  footer .top div {
+    width: 100%;
+  }
+  footer .bottom {
+    height: 130px;
+  }
+  footer .bottom .box div {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 840px) {
+  nav {
+    height: 60px;
+  }
+  nav .box {
+    display: none;
+  }
+  nav .navigation {
+    display: block;
+  }
+  nav .navigation .right:hover ~ div {
+    display: block;
+  }
+  nav .navigation div:hover {
+    display: block;
+  }
+  header .rotete div ul h2 {
+    font-size: 20px;
+    bottom: 30%;
+    left: 30%;
+  }
+  header .rotete .left {
+    width: 40px;
+    height: 40px;
+  }
+  header .rotete .right {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media screen and (min-width: 260px) and (max-width: 479px) {
+  nav {
+    height: 40px;
+    position: static;
+  }
+  nav .box {
+    display: none;
+  }
+  nav .navigation {
+    display: block;
+    height: 40px;
+  }
+  nav .navigation .left {
+    width: 60px;
+    height: 20px;
+    margin: 10px 0px 10px 20px;
+  }
+  nav .navigation .right {
+    width: 20px;
+    height: 20px;
+    padding: 10px 20px;
+  }
+  nav .navigation .content {
+    top: 40px;
+    z-index: 3;
+  }
+  nav .navigation .content a {
+    font-size: 16px;
+  }
+  nav .navigation .right:hover ~ div {
+    display: block;
+  }
+  nav .navigation div:hover {
+    display: block;
+  }
+  header .rotete div ul h2 {
+    font-size: 13px;
+    bottom: 10%;
+    left: 25%;
+  }
+  header .rotete .left {
+    width: 30px;
+    height: 30px;
+  }
+  header .rotete .right {
+    width: 30px;
+    height: 30px;
+  }
+  header .bottom .box a {
+    width: 100%;
+    margin: 0px 2.5%;
+  }
+  main .top .top-top .left {
+    width: 100%;
+  }
+  main .top .top-top .right {
+    width: 100%;
+  }
+  main .top .top-top .right .box p {
+    font-size: 14px;
+  }
+  main .top .top-bottom .left {
+    width: 100%;
+  }
+  main .top .top-bottom .left .box p:nth-child(2) {
+    font-size: 16px;
+  }
+  main .top .top-bottom .left .box p {
+    font-size: 14px;
+  }
+  main .top .top-bottom .right {
+    width: 100%;
+  }
+  main .center .case {
+    overflow: hidden;
+  }
+  main .center .case .outside .inside a img {
+    width: 100%;
+    margin: 0px 0.5%;
+  }
+  main .bottom ul li {
+    width: 100%;
+    margin: 0px 2%;
+  }
+  footer .top div {
+    width: 100%;
+  }
+  footer .bottom {
+    height: 130px;
+  }
+  footer .bottom .box .left {
+    width: 100%;
+  }
+  footer .bottom .box .right {
+    width: 100%;
+    padding-top: 10px;
+  }
+}
